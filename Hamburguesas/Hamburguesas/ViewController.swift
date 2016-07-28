@@ -27,8 +27,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
-    @IBAction func dameBurguer() {
+    @IBAction func dameBurguer(sender: UIButton) {
         lblHamburguesa.text     = hamburguesas.obtenHamburguesa()
         lblPais.text            = paises.obtenPais()
         
@@ -36,5 +35,6 @@ class ViewController: UIViewController {
         view.backgroundColor    = colorAleatorio
         view.tintColor          = colorAleatorio
     }
+
 }
 
